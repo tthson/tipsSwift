@@ -14,6 +14,7 @@
 		83B467081D23B62C009009A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B467061D23B62C009009A1 /* LaunchScreen.storyboard */; };
 		83B467131D23B62C009009A1 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B467121D23B62C009009A1 /* tipsTests.swift */; };
 		83B4671E1D23B62C009009A1 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4671D1D23B62C009009A1 /* tipsUITests.swift */; };
+		83B4672C1D23D2FC009009A1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4672B1D23D2FC009009A1 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		83B467191D23B62C009009A1 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B4671D1D23B62C009009A1 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		83B4671F1D23B62C009009A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B4672B1D23D2FC009009A1 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				83B466FD1D23B62C009009A1 /* AppDelegate.swift */,
 				83B466FF1D23B62C009009A1 /* ViewController.swift */,
+				83B4672B1D23D2FC009009A1 /* SettingViewController.swift */,
 				83B467011D23B62C009009A1 /* Main.storyboard */,
 				83B467041D23B62C009009A1 /* Assets.xcassets */,
 				83B467061D23B62C009009A1 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				83B467001D23B62C009009A1 /* ViewController.swift in Sources */,
 				83B466FE1D23B62C009009A1 /* AppDelegate.swift in Sources */,
+				83B4672C1D23D2FC009009A1 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NavigosGroup.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NavigosGroup.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
